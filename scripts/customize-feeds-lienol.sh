@@ -24,6 +24,7 @@ wget $clash_main_url && tar zxvf clash-linux-*.gz && rm -f clash-linux-*.gz
 chmod +x clash*
 
 
+
 mkdir /workdir/openwrt/package/lean/redsocks2 
 cd /workdir/openwrt/package/lean/redsocks2 
 wget https://github.com/coolsnowwolf/lede/blob/master/package/lean/redsocks2/Makefile
